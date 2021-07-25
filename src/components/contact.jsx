@@ -34,35 +34,22 @@ export const Contact = (props) => {
   // }
   return (
     <div>
-    <div id='contact'>
-    <div className='container'>
-    <div className='col-md-8'>
-    <div className='row'>
-    <div className='section-title'>
-    <h2>Registro colaborativo das Mudas Plantadas</h2>
+      <div id='contact'>
+        <div className='container'>
+          <div className='col-md-8'>
+            <div className='row'>
+              <div className='section-title'>
+                <h2>Registro colaborativo das Mudas Plantadas</h2>
+              </div>
+              <div className='row'>
+                <div className='col-md-6'>
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGPS3m8B_l37BifJEliMLWF8vlIsC8MYHva-k71AnLq2zMRg/viewform?embedded=true" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div className='row'>
-    <div className='col-md-6'>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGPS3m8B_l37BifJEliMLWF8vlIsC8MYHva-k71AnLq2zMRg/viewform?embedded=true" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-    </div>
-    </div>
-    </div>
-    </div>
-
-
-
-    </div>
-    </div>
-    <div id='footer'>
-    <div className='container text-center'>
-    <p>
-    &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-    <a href='http://www.templatewire.com' rel='nofollow'>
-    TemplateWire
-    </a>
-    </p>
-    </div>
-    </div>
-    </div>
-    )
-  }
+  )
+}
