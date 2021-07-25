@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            <img src="img/terra_doce_lar_logo_360x.png" className="img-logotype" alt="Logo Terra Doce Lar" />{" "}
           </a>{' '}
         </div>
 
@@ -27,37 +27,37 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                Home
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+                Sobre Nós
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Services
+                Plantio
               </a>
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+                Loja
               </a>
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                Blog
               </a>
             </li>
             <li>
               <a href='#team' className='page-scroll'>
-                Team
+                Contato
               </a>
             </li>
             <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
+              <a href='#contact' className='page-scroll-doar'>
+                Doar
               </a>
             </li>
           </ul>
