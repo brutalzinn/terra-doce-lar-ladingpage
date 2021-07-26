@@ -4,8 +4,8 @@ import { GoogleMap, useJsApiLoader} from "@react-google-maps/api"
 // const libraries = ["places"];
 
 const containerStyle = {
-  width: '40vw',
-  height: '50vh'
+  width: '48vw',
+  height: '60vh'
 };
 // const center = {
 //   lat: 41.40338,
@@ -52,6 +52,9 @@ export const Testimonials = () => {
         zoom={10}
         onLoad={onLoad}
         onUnmount={onUnmount}
+        onClick={(e) => {
+          console.log(e);
+        }}
       >
         { /* Child components, such as markers, info windows, etc. */ }
         <></>

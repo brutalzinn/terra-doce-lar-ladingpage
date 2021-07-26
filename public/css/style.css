@@ -324,6 +324,7 @@ header .intro-text {
   display: flex;
   flex-direction: column;
   color: #A3469E;
+  text-transform: none;
 }
 
 #features i.fa {
@@ -337,6 +338,22 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#testimonials h2 {
+  font-family: "Poppins";
+  font-weight: 600;
+  text-transform: none;
+  color:#4F359B;
+}
+#testimonials p {
+  font-family: "Poppins";
+  color:#4F359B;
+}
+#testimonials .row {
+  display: flex;
+  gap: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 /* About Section */
 #about {
@@ -392,10 +409,20 @@ header .intro-text {
 }
 #ourstore .ourstore-desc {
   margin: 10px 10px 20px;
+  background-color: #FDFEFF;
+  border-radius: 25px;
+  width: 257px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
 }
 #ourstore h2 {
   font-family: 'Poppins', sans-serif;
   color: #A3469E;
+  text-transform: none;
+  text-align: left;
 }
 #ourstore i.fa {
   font-size: 42px;
@@ -407,25 +434,68 @@ header .intro-text {
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+#ourstore img {
+  width: 225px;
+  height: 225px;
+  border-radius: 15px;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 #ourstore h3 {
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 3px 5px;
+  color: #4F359B;
+  text-align: left;
+  margin-left: 20px;
+}
+#ourstore h4 {
+  font-weight: 700;
   padding: 5px 0;
-  color: #fff;
+  color: #ad78df;
+  text-align: right;
+  margin-right: 20px;
 }
 #ourstore p {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 14px; 
   font-style: normal;
   font-weight: 400;
-  text-align:center;
-  padding: 15px 10px;
+  text-align: left;
   margin: 4px 25px;
   display: flex;
   flex-direction: column;
-  color: #A3469E;
+  color: #4F359B;
 }
 #ourstore .ourstore-desc {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+}
+#ourstore .button{
+  margin-top: 5rem;
+}
+#ourstore button{
+  font-family: 'Poppins', sans-serif;
+  color: #fefdff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-align:center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 12px 25px;
+  margin: 6px 10px;
+  background: #A4479F;
+  border-radius: 50px;
+}
+#ourstore button:hover{
+  color: #A4479F;
+  background: #e7dfff;
+  content: "";
+  transition: 0.3s;
+}
+#ourstore a {
+text-decoration: none;
 }
 /* Portfolio Section */
 #portfolio {
@@ -714,8 +784,8 @@ label {
   text-align:left;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding: 15px 10px;
-  margin: 4px 25px;
+  padding: 5px 10px;
+  margin: 5px 25px;
   display: flex;
   flex-direction: column;
 }
@@ -730,13 +800,13 @@ label {
 #footer .footer-info-group a {
   font-size: 16px;
   color: #fff;
-  padding: 5px 7px;
+  padding: 5px 5px;
 }
 #footer .footer-info-group h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
   padding: 8px 7px;
-  margin:5px 10px
+  margin: 5px 5px
 }
 #footer .footer-info-group .social{
   display:flex;
