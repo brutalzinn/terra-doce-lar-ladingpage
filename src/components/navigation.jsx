@@ -2,7 +2,6 @@ export const Navigation = (props) => {
 
   function openInNewTab(url) {
       window.open(url, '_blank').focus();
-
   }
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
