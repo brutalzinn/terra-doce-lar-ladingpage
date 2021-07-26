@@ -6,7 +6,7 @@ import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
+import { Team } from "./components/team";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
@@ -35,11 +35,7 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
-<<<<<<< HEAD
       <Footer data={landingPageData.Footer} />
-=======
-      <Footer />
->>>>>>> 6459f44c017898cbd48d73f919de343bf6b7887b
     </div>
   );
 };
