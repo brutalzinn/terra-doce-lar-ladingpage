@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
+import { Plantio } from "./components/plantio";
 import { About } from "./components/about";
 import { Ourstore } from "./components/ourstore";
-import { Gallery } from "./components/gallery";
+// import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
+import { Blog } from "./components/blog";
+
 import { Overallnumber } from "./components/overallnumber";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
@@ -29,12 +31,14 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
+      <Plantio extra={landingPageData.Ourstore} data={landingPageData.Features} />
       <Overallnumber data={landingPageData.Overallnumber} />
-      <About data={landingPageData.About} />
+      {/* <About data={landingPageData.About} /> */}
+      {/* <Testimonials data={landingPageData.Testimonials} /> */}
+     <Blog/>
+
       <Ourstore data={landingPageData.Ourstore} />
-      <Gallery />
-      <Testimonials data={landingPageData.Testimonials} />
+      {/* <Gallery /> */}
       <Contact data={landingPageData.Contact} />
       <Footer data={landingPageData.Footer} />
     </div>

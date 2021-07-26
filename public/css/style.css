@@ -251,7 +251,22 @@ a:focus,
   width: 100%;
   height: 100%;
 }
-
+#blog h2 {
+  font-family: "Poppins";
+  font-weight: 600;
+  text-transform: none;
+  color:#A3469E;
+}
+#blog p {
+  font-family: "Poppins";
+  color:#A3469E;
+}
+#blog .row {
+  display: flex;
+  gap: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .intro {
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
