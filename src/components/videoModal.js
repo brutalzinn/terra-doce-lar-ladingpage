@@ -16,15 +16,21 @@ export class videoModal extends Component {
   }
   render() {
     return (
-      <div>
-        <div>
+      <div id='videointro'>
+        <div className='video-container'>
           <ModalVideo
             channel="youtube"
+            autoplay
+            start
             isOpen={this.state.isOpen}
             videoId="joG5hrkQsZw"
             onClose={() => this.setState({ isOpen: false })}
           />
-          <button onClick={this.openModal}>Open</button>
+          <div className='video-button-open'>
+            <button onClick={this.openModal}>
+              <i className='fa fa-play'></i>
+            </button>
+          </div>
         </div>
       </div>
     );

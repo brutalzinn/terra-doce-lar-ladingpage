@@ -232,20 +232,22 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
-.youtube-video-container {
+#header .youtube-video-container {
   position: relative;
   overflow: hidden;
   width: 100%;
+  /* background: url(../img/intro-bg.jpg) center center no-repeat; */
 }
 
-.youtube-video-container::after {
+#header .youtube-video-container::after {
   display: block;
   content: "";
   padding-top: 56.25%;
 }
 
-.youtube-video-container iframe {
+#header .youtube-video-container iframe {
   position: absolute;
+  z-index: 10;
   top: 0;
   left: 0;
   width: 100%;
@@ -267,19 +269,62 @@ a:focus,
   margin-right: auto;
   margin-left: auto;
 }
+#videointro .video-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.video-container-text{
+  display: block;
+}
+.video-container-text p{
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.2em + 1.2vmin);
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin:auto;
+  text-transform: none;
+  color: #fff;
+}
+#videointro .video-container .video-button-open{
+  position:absolute;
+  padding-top: 50%;
+}
+#videointro .video-container .video-button-open button{
+  background-color: #fd3bf3;
+  border-radius: 60%;
+  border:none;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  opacity: 0.6;
+}
+#videointro .video-container .video-button-open button i.fa{
+  font-size: 80px;
+  color: #fff;
+  padding-left: 15px;
+  transition: all 0.3s;
+}
+#videointro .video-container .video-button-open button:hover{
+  opacity: 0.9;
+  transition: all 0.3s;
+}
 .intro {
-  padding: 0;
+  padding: 20px;
+  background-color: #000000;
+  height: 90vh;
+}
+.intro .row{
   background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  padding:30px;
 }
-.intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
-}
-.intro h1 {
+/* .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
   font-size: 82px;
@@ -287,19 +332,19 @@ a:focus,
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
-}
-.intro h1 span {
+} */
+/* .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
-}
-.intro p {
+} */
+/* .intro p {
   color: #fff;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
-}
+} */
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
@@ -618,7 +663,7 @@ text-decoration: none;
 #contact {
   padding: 100px 0 60px;
   background: #fff;
-  color: #4F359B;
+  color: #942c8b;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -627,10 +672,18 @@ text-decoration: none;
   font-size: 16px;
 }
 #contact h2 {
-  color: #4F359B;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 15px 10px;
+  margin: 4px 25px;
+  display: flex;
+  flex-direction: column;
+  color: #A3469E;
 }
 #contact .section-title h2::after {
   position: absolute;
