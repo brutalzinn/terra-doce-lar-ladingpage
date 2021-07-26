@@ -3,10 +3,15 @@ import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
-import { Services } from "./components/services";
+import { Ourstore } from "./components/ourstore";
 import { Gallery } from "./components/gallery";
+<<<<<<< HEAD
 import { Testimonials } from "./components/testimonials";
 // import { Team } from "./components/team";
+=======
+import { Overallnumber } from "./components/overallnumber";
+import { Team } from "./components/team";
+>>>>>>> suelen
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
@@ -29,11 +34,16 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
+      <Overallnumber data={landingPageData.Overallnumber} />
       <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
+      <Ourstore data={landingPageData.Ourstore} />
       <Gallery />
+<<<<<<< HEAD
       <Testimonials data={landingPageData.Testimonials} />
       {/* <Team data={landingPageData.Team} /> */}
+=======
+      <Team data={landingPageData.Team} />
+>>>>>>> suelen
       <Contact data={landingPageData.Contact} />
       <Footer data={landingPageData.Footer} />
     </div>

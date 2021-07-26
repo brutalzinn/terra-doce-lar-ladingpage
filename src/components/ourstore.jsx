@@ -1,13 +1,9 @@
-export const Services = (props) => {
+export const Ourstore = (props) => {
   return (
-    <div id='services' className='text-center'>
+    <div id='ourstore' className='text-center'>
       <div className='container'>
-        <div className='section-title'>
-          <h2>Our Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+        <div className='ourstore-title'>
+          <h2>Loja Terra Doce Lar</h2>
         </div>
         <div className='row'>
           {props.data
@@ -15,7 +11,7 @@ export const Services = (props) => {
                 <div key={`${d.name}-${i}`} className='col-md-4'>
                   {' '}
                   <i className={d.icon}></i>
-                  <div className='service-desc'>
+                  <div className='ourstore-desc'>
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
                   </div>
