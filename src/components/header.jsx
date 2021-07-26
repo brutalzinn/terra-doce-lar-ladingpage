@@ -6,11 +6,7 @@ export const Header = (props) => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-8 col-md-offset-2 intro-text'>
-                <h1>
-                  {props.data ? props.data.title : 'Loading'}
-                  <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
+              <iframe width="560" height="400" src="https://www.youtube.com/embed/joG5hrkQsZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <a
                   href='#features'
                   className='btn btn-custom btn-lg page-scroll'
