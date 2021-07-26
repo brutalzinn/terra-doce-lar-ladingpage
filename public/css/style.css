@@ -292,6 +292,10 @@ a:focus,
   position:absolute;
   padding-top: 50%;
 }
+a:hover {
+  cursor:pointer;
+ }
+
 #videointro .video-container .video-button-open button{
   background-color: #fd3bf3;
   border-radius: 60%;

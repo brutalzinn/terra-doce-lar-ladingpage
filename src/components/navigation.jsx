@@ -1,4 +1,7 @@
 export const Navigation = (props) => {
+  function openInNewTab(url) {
+    window.open(url, '_blank').focus();
+   }
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
     <div className='container'>
@@ -40,11 +43,7 @@ export const Navigation = (props) => {
       Sobre Nós
       </a>
     </li> */}
-    <li>
-    <a href='#blog' className='page-scroll'>
-    Blog
-    </a>
-    </li>
+
     <li>
     <a href='#ourstore' className='page-scroll'>
     Loja
@@ -56,7 +55,12 @@ export const Navigation = (props) => {
     </a>
     </li>
     <li>
-    <a href='#contact' className='page-scroll'>
+    <a href='#blog' className='page-scroll'>
+    Blog
+    </a>
+    </li>
+    <li>
+    <a className='page-scroll' onClick={()=>openInNewTab('http://vaka.me/6rmj1a')}>
     Doar
     </a>
     </li>
