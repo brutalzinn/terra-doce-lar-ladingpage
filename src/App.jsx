@@ -35,7 +35,11 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+<<<<<<< HEAD
       <Footer data={landingPageData.Footer} />
+=======
+      <Footer />
+>>>>>>> 6459f44c017898cbd48d73f919de343bf6b7887b
     </div>
   );
 };
