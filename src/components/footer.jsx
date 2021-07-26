@@ -64,6 +64,11 @@ export const Footer = (props) => {
                   <i className='fa fa-instagram'></i>
                 </a>
               </li>
+              <li>
+                <a href={props.data ? props.data.twitter : '/'}>
+                  <i className='fa fa-arrow-circle-right'></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
