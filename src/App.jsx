@@ -7,7 +7,7 @@ import { Ourstore } from "./components/ourstore";
 // import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Blog } from "./components/blog";
-
+import { PlantationMap } from "./components/plantationmap"
 import { Overallnumber } from "./components/overallnumber";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
@@ -35,8 +35,8 @@ const App = () => {
       <Overallnumber data={landingPageData.Overallnumber} />
       {/* <About data={landingPageData.About} /> */}
       {/* <Testimonials data={landingPageData.Testimonials} /> */}
-     <Blog/>
-
+      {/* <Blog/> */}
+      <PlantationMap data={landingPageData.Overallnumber} />
       <Ourstore data={landingPageData.Ourstore} />
       {/* <Gallery /> */}
       <Contact data={landingPageData.Contact} />

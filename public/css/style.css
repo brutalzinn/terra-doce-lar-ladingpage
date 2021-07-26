@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,10 +11,9 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 h2 {
-  text-transform: uppercase;
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
@@ -236,7 +235,6 @@ a:focus,
   position: relative;
   overflow: hidden;
   width: 100%;
-  /* background: url(../img/intro-bg.jpg) center center no-repeat; */
 }
 
 #header .youtube-video-container::after {
@@ -461,6 +459,80 @@ header .intro-text {
   padding: 100px 0;
   background: rgba(179, 214, 2, 0.3);
 }
+
+#pantationmap{
+  margin:120px 0;
+}
+#pantationmap .row{
+  display: flex;
+}
+#pantationmap .row .map-textandform-group{
+  margin:20px 40px 0 0;
+}
+#pantationmap .map-text-group h2{
+  font-size: 30px;
+  font-style: normal;
+  line-height: 1.5em;
+  color: #A3469E;
+}
+#pantationmap .map-text-group p{
+  font-size: 20px;
+  font-style: normal;
+  color: #A3469E;
+  margin:20px 0;
+}
+#pantationmap .mapform{
+  margin-top: 40px;
+}
+#pantationmap .mapform form > input{
+  font-size: 20px;
+  font-style: normal;
+  text-indent: 10px;
+  color: #ccc;
+  width:100%;
+  padding:10px;
+  border-radius:50px;
+  border:2px solid #A3469E;
+}
+
+#pantationmap .mapform form > input:focus{
+  border:2px solid #ff52f6;
+  border-radius:50px;
+  outline: none;
+}
+#pantationmap .mapform form :nth-child(2){
+  font-size: 20px;
+  font-style: normal;
+  background: #fff;
+  border:2px solid #A3469E;
+  color: #A3469E;
+  width:45%;
+  padding:10px;
+  margin:20px 20px 0 0;
+  border-radius:50px;
+}
+#pantationmap .mapform form :nth-child(2):hover{
+  background: #A3469E;
+  border:2px solid #fff;
+  color: #fff;
+}
+#pantationmap .mapform form :nth-child(3){
+  font-size: 20px;
+  font-style: normal;
+  background: #A3469E;
+  border:2px solid #A3469E;
+  color: #fff;
+  width:45%;
+  padding:10px;
+  margin:20px 0 0 20px;
+  border-radius:50px;
+}
+#pantationmap .mapform form :nth-child(3):hover{
+  background: #fff;
+  border:2px solid #A3469E;
+  color: #A3469E;
+}
+
 #ourstore .ourstore-desc {
   margin: 10px 10px 20px;
   background-color: #FDFEFF;
@@ -470,7 +542,7 @@ header .intro-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
+  text-transform: none;
 }
 #ourstore h2 {
   font-family: 'Poppins', sans-serif;
@@ -531,7 +603,7 @@ header .intro-text {
 #ourstore button{
   font-family: 'Poppins', sans-serif;
   color: #fefdff;
-  font-size: 14px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   text-align:center;
@@ -541,6 +613,8 @@ header .intro-text {
   margin: 6px 10px;
   background: #A4479F;
   border-radius: 50px;
+  border:none;
+  width:45%;
 }
 #ourstore button:hover{
   color: #A4479F;

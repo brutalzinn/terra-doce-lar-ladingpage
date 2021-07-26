@@ -67,20 +67,15 @@ export const Footer = (props) => {
                   <i className='fa fa-instagram'></i>
                 </a>
               </li>
-              <li>
-                <a href={props.data ? props.data.twitter : '/'}>
-                  <i className='fa fa-arrow-circle-right'></i>
-                </a>
-              </li>
             </ul>
           </div>
         </div>
-        {/* <p>
-          &copy; 2021 Issaaf Kattan React Land Page Template. Design by{' '}
-          <a href='http://www.templatewire.com' rel='nofollow'>
-            TemplateWire
+        <p>
+          &copy; 2021 - Grupo 10 - Provi Hack4Good. Design by{' '}
+          <a href='https://github.com/brutalzinn/terra-doce-lar-ladingpage' rel='nofollow'>
+            GP10
           </a>
-        </p> */}
+        </p>
       </div>
     </footer>
   )
