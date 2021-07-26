@@ -1,7 +1,13 @@
 export const Navigation = (props) => {
+
   function openInNewTab(url) {
-    window.open(url, '_blank').focus();
-   }
+    var answer = window.confirm("Você tem certeza que deseja ir para outra página?");
+    if (answer) {
+      window.open(url, '_blank').focus();
+
+    }
+
+  }
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
     <div className='container'>
@@ -55,7 +61,7 @@ export const Navigation = (props) => {
     </a>
     </li>
     <li>
-    <a href='#blog' className='page-scroll'>
+    <a href='#blog' onClick={()=>openInNewTab('https://terradocelar.com/blogs/novidades')} className='page-scroll'>
     Blog
     </a>
     </li>

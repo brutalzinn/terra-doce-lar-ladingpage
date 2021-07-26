@@ -296,6 +296,11 @@ a:hover {
   cursor:pointer;
  }
 
+.separator{
+  border: 1px solid #0a78dc;
+  margin-left:-2px;
+}
+
 #videointro .video-container .video-button-open button{
   background-color: #fd3bf3;
   border-radius: 60%;
