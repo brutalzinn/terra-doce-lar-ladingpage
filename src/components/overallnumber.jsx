@@ -1,22 +1,21 @@
-export const Testimonials = (props) => {
+export const Overallnumber = (props) => {
   return (
-    <div id='testimonials'>
+    <div id='overallnumber'>
       <div className='container'>
-        <div className='section-title text-center'>
+        {/* <div className='section-title text-center'>
           <h2>What our clients say</h2>
-        </div>
+        </div> */}
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4'>
-                  <div className='testimonial'>
-                    <div className='testimonial-image'>
+                  <div className='overallnumber'>
+                    <div className='overallnumber-image'>
                       {' '}
                       <img src={d.img} alt='' />{' '}
                     </div>
-                    <div className='testimonial-content'>
-                      <p>"{d.text}"</p>
-                      <div className='testimonial-meta'> - {d.name} </div>
+                    <div className='overallnumber-content'>
+                      <p>{d.text}</p>
                     </div>
                   </div>
                 </div>
