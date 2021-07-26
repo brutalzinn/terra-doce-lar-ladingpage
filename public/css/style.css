@@ -464,32 +464,16 @@ header .intro-text {
 /* overallnumber Section */
 #overallnumber {
   padding: 100px 0;
-<<<<<<< HEAD
   background: #FEFDFF;
-=======
   background: rgba(179, 214, 2, 0.3);
->>>>>>> suelen
 }
 #overallnumber i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
-#testimonials h2 {
-  color: #4F359B;
-  font-weight: 600;
-  font-size: 31px;
-  line-height: 48px;
-  text-transform: none;
-  text-align: initial;
-}
-.testimonial {
-  position: absolute;
-=======
 .overallnumber {
   position: relative;
->>>>>>> suelen
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -504,13 +488,8 @@ header .intro-text {
   width: 100px;
   height: 100px;
 }
-<<<<<<< HEAD
-.testimonial-content {
-  /* position: relative; */
-=======
 .overallnumber-content {
   position: relative;
->>>>>>> suelen
   overflow: hidden;
   display: flex;
 }
