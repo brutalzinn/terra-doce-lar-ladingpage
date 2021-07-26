@@ -254,8 +254,8 @@ a:focus,
 
 .intro {
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background: url(../img/intro-bg.jpg) center center center;
+  background-color: #000000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -533,7 +533,7 @@ header .intro-text {
 #contact {
   padding: 100px 0 60px;
   background: #fff;
-  color: #4F359B;
+  color: #942c8b;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -542,10 +542,18 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #4F359B;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 15px 10px;
+  margin: 4px 25px;
+  display: flex;
+  flex-direction: column;
+  color: #A3469E;
 }
 #contact .section-title h2::after {
   position: absolute;
