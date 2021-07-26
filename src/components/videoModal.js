@@ -20,6 +20,8 @@ export class videoModal extends Component {
         <div className='video-container'>
           <ModalVideo
             channel="youtube"
+            autoplay
+            start
             isOpen={this.state.isOpen}
             videoId="joG5hrkQsZw"
             onClose={() => this.setState({ isOpen: false })}
