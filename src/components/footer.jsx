@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const PageFooter = (props) => {
+export const Footer = (props) => {
 
 
     return (
