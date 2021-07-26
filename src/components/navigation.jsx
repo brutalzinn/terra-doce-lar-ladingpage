@@ -1,11 +1,7 @@
 export const Navigation = (props) => {
 
   function openInNewTab(url) {
-    var answer = window.confirm("Você tem certeza que deseja ir para outra página?");
-    if (answer) {
       window.open(url, '_blank').focus();
-
-    }
 
   }
   return (
