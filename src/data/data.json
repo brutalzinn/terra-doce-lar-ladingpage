@@ -4,7 +4,7 @@
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Nós queremos lembrar do poder individual de transformação exponencial que temos quando nos conectamos ao coletivo, recuperando a autonomia alimentar das pessoas e a conexão afetiva com o que comemos. Nosso primeiro objetivo é mostrar para as pessoas que é possível, basta acreditarmos que podemos fazer uma grande ação coletiva pela vida no nosso planeta. Por isso, criamos o #DesafioTerraDoceLar.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -20,34 +20,29 @@
   },
   "Ourstore": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "https://cdn.shopify.com/s/files/1/0320/7158/1836/products/calcinha-absorvente-descricao-17_540x.jpg?v=1597868671",
+      "name": "Calcinha Absorvente - 3un",
+      "text": "Evita o consumo de 500 absorventes por ano.",
+      "price": "125,99"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "https://cdn.shopify.com/s/files/1/0320/7158/1836/products/H9740405ff18a46c0afd3eeae0548e451G_540x.jpg?v=1623015783",
+      "name": "Escova de dentes de Bambu - 10un",
+      "text": "250 anos a menos para desaparecer da natureza",
+      "price": "125,00"
+
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "https://cdn.shopify.com/s/files/1/0320/7158/1836/products/H1561629f02c24c54bac3f1b92a309045m_1024x1024@2x.jpg?v=1622149885",
+      "name": "Fralda de Pano - 4un",
+      "text": "Reutilizáveis e evitam alergias",
+      "price": "232,00"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "https://cdn.shopify.com/s/files/1/0320/7158/1836/products/H6a5c4399296d4084bad810bdc99832cdo_b724152f-a22e-468d-aea3-367a9f69a10e_1024x1024@2x.jpg?v=1586312743",
+      "name": "Esponja Vegetal",
+      "text": "Esfoliante natural, remove impurezas",
+      "price": "73,90"
     }
   ],
   "Overallnumber": [
