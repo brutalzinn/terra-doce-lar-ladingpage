@@ -8,3 +8,12 @@ Lista de tecnologias utilizadas:
     • NodeJS
     • Google Maps API
     • Bootstrap
+
+# Iniciando o projeto
+
+1. npm install
+2. npm start
+
+# Requerimentos
+
+1. NodeJS
