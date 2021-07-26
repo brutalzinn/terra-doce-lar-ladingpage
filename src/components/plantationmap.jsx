@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 
 
 export const PlantationMap = () => {
-  const [form, setForm] = useState({})
+  const [form, setForm] = useState({map:''})
 
-    const handleChange = (e) => {
-        setForm({
-            ...form,
-            [e.target.name]: e.target.value
-        })
+    const handleChange = (props) => {
+      const { value, name } = props.target
+
+      setForm({
+        ...form,
+        [name]: value
+      })
+
     }
 
 
@@ -24,9 +27,9 @@ export const PlantationMap = () => {
             </div>
             <div className="mapform">
               <form>
-                <input 
-                  type="text" id="description" value={form.value || ""} onChange={handleChange}
-                  name="description" placeholder="diga para gente onde está sua muda" 
+                <input
+                  type="text" value={form.description || ""} onChange={handleChange}
+                  name="description" placeholder="diga para gente onde está sua muda"
                 />
                 <button>Carregar Foto</button>
                 <button>Incluir no Mapa</button>
