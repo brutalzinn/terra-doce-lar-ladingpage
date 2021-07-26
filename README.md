@@ -17,3 +17,7 @@ Lista de tecnologias utilizadas:
 # Requerimentos
 
 1. NodeJS
+
+### Landing Pages
+
+![Print 1](imagens/print_1.png)
