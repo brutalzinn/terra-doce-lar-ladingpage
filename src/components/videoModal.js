@@ -25,6 +25,7 @@ export class videoModal extends Component {
             isOpen={this.state.isOpen}
             videoId="joG5hrkQsZw"
             onClose={() => this.setState({ isOpen: false })}
+            className='video-player'
           />
           <div className='video-button-open'>
             <button onClick={this.openModal}>
