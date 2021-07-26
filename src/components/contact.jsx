@@ -36,16 +36,10 @@ export const Contact = (props) => {
     <div>
       <div id='contact'>
         <div className='container'>
-          <div className='col-md-8'>
-            <div className='row'>
-              <div className='section-title'>
-                <h2>Registro colaborativo das Mudas Plantadas</h2>
-              </div>
-              <div className='row'>
-                <div className='col-md-6'>
-                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGPS3m8B_l37BifJEliMLWF8vlIsC8MYHva-k71AnLq2zMRg/viewform?embedded=true" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-                </div>
-              </div>
+          <div className='row'>
+            <h2 className='section-title'>Registro colaborativo das Mudas Plantadas</h2>
+            <div className='form-box'>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGPS3m8B_l37BifJEliMLWF8vlIsC8MYHva-k71AnLq2zMRg/viewform?embedded=true" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
             </div>
           </div>
         </div>

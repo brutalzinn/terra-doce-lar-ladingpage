@@ -74,6 +74,7 @@ hr {
 #menu {
   padding: 15px;
   transition: all 0.8s;
+  max-width:100vw;
 }
 #menu.navbar-default {
   background-color: #fff;
@@ -98,7 +99,7 @@ hr {
   white-space: nowrap;
   display: block;
   padding: 15px 10px;
-  margin: 4px 25px;
+  margin: 4px 15px;
   border-radius: 0;
 }
 
@@ -518,9 +519,28 @@ header .intro-text {
   padding-bottom: 20px;
   font-weight: 400;
 }
-#contact form {
-  padding-top: 20px;
+#contact .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
 }
+#contact .section-title {
+  align-self: center;
+}
+#contact .form-box {
+  align-self: center;
+}
+#contact iframe {
+  align-self: center;
+}
+@media (max-width: 768px) {
+  #contact iframe {
+    max-width:500px;
+  }
+}
+
+
 #contact .text-danger {
   color: #cc0033;
   text-align: left;
@@ -688,6 +708,16 @@ label {
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
 }
+@media (max-width: 768px) {
+  #footer .footer-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
