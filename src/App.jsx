@@ -7,7 +7,6 @@ import { Ourstore } from "./components/ourstore";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Overallnumber } from "./components/overallnumber";
-import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
@@ -36,7 +35,6 @@ const App = () => {
       <Ourstore data={landingPageData.Ourstore} />
       <Gallery />
       <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
       <Footer data={landingPageData.Footer} />
     </div>
