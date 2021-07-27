@@ -2,6 +2,8 @@
 
 A Landing Page tem como objetivo vincular a identidade da Terra Doce Lar. Sem a necessidade de desfragmentar toda sua estrutura atual. A solução tem como objetivo principal fornecer uma página em formato de página única, separada da plataforma Shopify. Para ajudar a captura de público e possibilitar, caso necessário, uma descentralização da plataforma Shopify de forma mais lenta e consistente.
 
+[Acessar demo](https://terra-doce-lar-ladingpage-nine.vercel.app/)
+
 Lista de tecnologias utilizadas:
 
     • React JS
@@ -17,3 +19,7 @@ Lista de tecnologias utilizadas:
 # Requerimentos
 
 1. NodeJS
+
+### Landing Pages
+
+![Print 1](imagens/print_1.png)
