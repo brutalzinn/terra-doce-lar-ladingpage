@@ -321,7 +321,7 @@ a:hover {
 .intro {
   padding: 20px;
   background-color: #000000;
-  height: 90vh;
+  height: auto;
 }
 .intro .row{
   background: url(../img/intro-bg.jpg) center center no-repeat;
