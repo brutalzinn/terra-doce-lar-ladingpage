@@ -1,6 +1,6 @@
-export const Ourstore = (props) => {
+export const OurStore = (props) => {
   return (
-    <div id='ourstore' className='text-center'>
+    <div id='ourStore' className='text-center'>
       <div className='container'>
         <div className='ourstore-title'>
           <h2>Loja Terra Doce Lar</h2>
